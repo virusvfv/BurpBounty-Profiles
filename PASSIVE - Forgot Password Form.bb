@@ -1,6 +1,6 @@
 [
  {
-  "Name": "500-Error", 
+  "Name": "PASSIVE - Forgot Password Form", 
   "Active": false, 
   "Scanner": 2, 
   "Payloads": [], 
@@ -8,7 +8,10 @@
   "UrlEncode": false, 
   "CharsToUrlEncode": "", 
   "Grep": [
-   "500 Internal Server Error"
+   "Forgot your password", 
+   "Forgot password", 
+   "Forgot email", 
+   "Forgot username"
   ], 
   "PayloadResponse": false, 
   "NotResponse": false, 
@@ -18,7 +21,7 @@
   "CaseSensitive": false, 
   "isReplace": false, 
   "ExcludeHTTP": false, 
-  "OnlyHTTP": true, 
+  "OnlyHTTP": false, 
   "IsContentType": false, 
   "ContentType": "", 
   "NegativeCT": false, 
@@ -31,12 +34,12 @@
   "rCookies": false, 
   "spaceEncode": false, 
   "payloadPosition": 0, 
-  "IssueName": "500 server error", 
-  "IssueSeverity": "Low", 
+  "IssueName": "Forgot Password Form", 
+  "IssueSeverity": "Information", 
   "IssueConfidence": "Certain", 
-  "IssueDetail": "", 
-  "RemediationDetail": "", 
-  "IssueBackground": "", 
-  "RemediationBackground": ""
+  "IssueDetail": "Forgot Password Form", 
+  "RemediationDetail": "Forgot Password Form", 
+  "IssueBackground": "Forgot Password Form", 
+  "RemediationBackground": "Forgot Password Form"
  }
 ]

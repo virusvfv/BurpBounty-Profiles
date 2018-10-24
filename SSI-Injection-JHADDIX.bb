@@ -1,7 +1,7 @@
 [
  {
   "Name": "SSI-Injection-JHADDIX", 
-  "Active": true, 
+  "Active": false, 
   "Scanner": 1, 
   "Payloads": [
    "<pre><!--#exec cmd=\"ls\" --></pre>", 
@@ -85,8 +85,6 @@
   ], 
   "UrlEncode": false, 
   "CharsToUrlEncode": "", 
-  "SearchString": "example.com", 
-  "ReplaceString": "yoursite.com", 
   "Grep": [
    "error", 
    "www-data"
@@ -94,14 +92,24 @@
   "PayloadResponse": false, 
   "NotResponse": false, 
   "NotCookie": false, 
+  "TimeOut": 0, 
+  "isTime": false, 
   "CaseSensitive": false, 
+  "isReplace": false, 
   "ExcludeHTTP": false, 
   "OnlyHTTP": false, 
   "IsContentType": false, 
   "ContentType": "", 
+  "NegativeCT": false, 
   "IsResponseCode": false, 
   "ResponseCode": "", 
+  "NegativeRC": false, 
   "MatchType": 1, 
+  "RedirType": 0, 
+  "MaxRedir": 0, 
+  "rCookies": false, 
+  "spaceEncode": false, 
+  "payloadPosition": 0, 
   "IssueName": "SSI-Injection-JHADDIX", 
   "IssueSeverity": "Information", 
   "IssueConfidence": "Certain", 

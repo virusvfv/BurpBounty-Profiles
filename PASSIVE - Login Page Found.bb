@@ -1,6 +1,6 @@
 [
  {
-  "Name": "500-Error", 
+  "Name": "PASSIVE - Login Page Found", 
   "Active": false, 
   "Scanner": 2, 
   "Payloads": [], 
@@ -8,7 +8,7 @@
   "UrlEncode": false, 
   "CharsToUrlEncode": "", 
   "Grep": [
-   "500 Internal Server Error"
+   "Login"
   ], 
   "PayloadResponse": false, 
   "NotResponse": false, 
@@ -18,7 +18,7 @@
   "CaseSensitive": false, 
   "isReplace": false, 
   "ExcludeHTTP": false, 
-  "OnlyHTTP": true, 
+  "OnlyHTTP": false, 
   "IsContentType": false, 
   "ContentType": "", 
   "NegativeCT": false, 
@@ -31,12 +31,12 @@
   "rCookies": false, 
   "spaceEncode": false, 
   "payloadPosition": 0, 
-  "IssueName": "500 server error", 
-  "IssueSeverity": "Low", 
-  "IssueConfidence": "Certain", 
-  "IssueDetail": "", 
-  "RemediationDetail": "", 
-  "IssueBackground": "", 
-  "RemediationBackground": ""
+  "IssueName": "Login Page Found", 
+  "IssueSeverity": "Information", 
+  "IssueConfidence": "Firm", 
+  "IssueDetail": "Login Page Found", 
+  "RemediationDetail": "Login Page Found", 
+  "IssueBackground": "Login Page Found", 
+  "RemediationBackground": "Login Page Found"
  }
 ]

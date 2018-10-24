@@ -1,6 +1,6 @@
 [
  {
-  "Name": "500-Error", 
+  "Name": "PASSIVE - Interesting Pages", 
   "Active": false, 
   "Scanner": 2, 
   "Payloads": [], 
@@ -8,7 +8,15 @@
   "UrlEncode": false, 
   "CharsToUrlEncode": "", 
   "Grep": [
-   "500 Internal Server Error"
+   "Login", 
+   "Register", 
+   "Lost your password", 
+   "Reset password", 
+   "Username", 
+   "Password", 
+   "admin", 
+   "Sign Up", 
+   "Signin"
   ], 
   "PayloadResponse": false, 
   "NotResponse": false, 
@@ -18,7 +26,7 @@
   "CaseSensitive": false, 
   "isReplace": false, 
   "ExcludeHTTP": false, 
-  "OnlyHTTP": true, 
+  "OnlyHTTP": false, 
   "IsContentType": false, 
   "ContentType": "", 
   "NegativeCT": false, 
@@ -31,12 +39,12 @@
   "rCookies": false, 
   "spaceEncode": false, 
   "payloadPosition": 0, 
-  "IssueName": "500 server error", 
-  "IssueSeverity": "Low", 
-  "IssueConfidence": "Certain", 
-  "IssueDetail": "", 
-  "RemediationDetail": "", 
-  "IssueBackground": "", 
-  "RemediationBackground": ""
+  "IssueName": "Interesting Pages", 
+  "IssueSeverity": "Information", 
+  "IssueConfidence": "Firm", 
+  "IssueDetail": "Interesting Pages", 
+  "RemediationDetail": "Interesting Pages", 
+  "IssueBackground": "Interesting Pages", 
+  "RemediationBackground": "Interesting Pages"
  }
 ]

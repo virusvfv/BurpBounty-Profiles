@@ -1,6 +1,6 @@
 [
  {
-  "Name": "500-Error", 
+  "Name": "PASSIVE - Registration Page Found", 
   "Active": false, 
   "Scanner": 2, 
   "Payloads": [], 
@@ -8,7 +8,8 @@
   "UrlEncode": false, 
   "CharsToUrlEncode": "", 
   "Grep": [
-   "500 Internal Server Error"
+   "Register", 
+   "Create Account"
   ], 
   "PayloadResponse": false, 
   "NotResponse": false, 
@@ -18,7 +19,7 @@
   "CaseSensitive": false, 
   "isReplace": false, 
   "ExcludeHTTP": false, 
-  "OnlyHTTP": true, 
+  "OnlyHTTP": false, 
   "IsContentType": false, 
   "ContentType": "", 
   "NegativeCT": false, 
@@ -31,12 +32,12 @@
   "rCookies": false, 
   "spaceEncode": false, 
   "payloadPosition": 0, 
-  "IssueName": "500 server error", 
-  "IssueSeverity": "Low", 
-  "IssueConfidence": "Certain", 
-  "IssueDetail": "", 
-  "RemediationDetail": "", 
-  "IssueBackground": "", 
-  "RemediationBackground": ""
+  "IssueName": "Registration Page Found", 
+  "IssueSeverity": "Information", 
+  "IssueConfidence": "Firm", 
+  "IssueDetail": "Registration Page Found", 
+  "RemediationDetail": "Registration Page Found", 
+  "IssueBackground": "Registration Page Found", 
+  "RemediationBackground": "Registration Page Found"
  }
 ]

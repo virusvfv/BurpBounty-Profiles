@@ -1,6 +1,6 @@
 [
  {
-  "Name": "500-Error", 
+  "Name": "PASSIVE - WAF Found", 
   "Active": false, 
   "Scanner": 2, 
   "Payloads": [], 
@@ -8,7 +8,9 @@
   "UrlEncode": false, 
   "CharsToUrlEncode": "", 
   "Grep": [
-   "500 Internal Server Error"
+   "Cloudflare", 
+   "Imperva", 
+   "NetScaler"
   ], 
   "PayloadResponse": false, 
   "NotResponse": false, 
@@ -18,7 +20,7 @@
   "CaseSensitive": false, 
   "isReplace": false, 
   "ExcludeHTTP": false, 
-  "OnlyHTTP": true, 
+  "OnlyHTTP": false, 
   "IsContentType": false, 
   "ContentType": "", 
   "NegativeCT": false, 
@@ -31,12 +33,12 @@
   "rCookies": false, 
   "spaceEncode": false, 
   "payloadPosition": 0, 
-  "IssueName": "500 server error", 
-  "IssueSeverity": "Low", 
+  "IssueName": "WAF Found", 
+  "IssueSeverity": "Information", 
   "IssueConfidence": "Certain", 
-  "IssueDetail": "", 
-  "RemediationDetail": "", 
-  "IssueBackground": "", 
-  "RemediationBackground": ""
+  "IssueDetail": "WAF Found", 
+  "RemediationDetail": "WAF Found", 
+  "IssueBackground": "WAF Found", 
+  "RemediationBackground": "WAF Found"
  }
 ]

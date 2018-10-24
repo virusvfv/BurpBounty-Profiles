@@ -1,6 +1,6 @@
 [
  {
-  "Name": "500-Error", 
+  "Name": "PASSIVE - Cisco ASA Device Found", 
   "Active": false, 
   "Scanner": 2, 
   "Payloads": [], 
@@ -8,7 +8,7 @@
   "UrlEncode": false, 
   "CharsToUrlEncode": "", 
   "Grep": [
-   "500 Internal Server Error"
+   "+CSCOE+"
   ], 
   "PayloadResponse": false, 
   "NotResponse": false, 
@@ -18,7 +18,7 @@
   "CaseSensitive": false, 
   "isReplace": false, 
   "ExcludeHTTP": false, 
-  "OnlyHTTP": true, 
+  "OnlyHTTP": false, 
   "IsContentType": false, 
   "ContentType": "", 
   "NegativeCT": false, 
@@ -31,12 +31,12 @@
   "rCookies": false, 
   "spaceEncode": false, 
   "payloadPosition": 0, 
-  "IssueName": "500 server error", 
-  "IssueSeverity": "Low", 
+  "IssueName": "Cisco ASA Device Found (Passive)", 
+  "IssueSeverity": "High", 
   "IssueConfidence": "Certain", 
-  "IssueDetail": "", 
-  "RemediationDetail": "", 
-  "IssueBackground": "", 
-  "RemediationBackground": ""
+  "IssueDetail": "Cisco ASA Device Found (Passive)", 
+  "RemediationDetail": "Cisco ASA Device Found (Passive)", 
+  "IssueBackground": "Cisco ASA Device Found (Passive)", 
+  "RemediationBackground": "Cisco ASA Device Found (Passive)"
  }
 ]

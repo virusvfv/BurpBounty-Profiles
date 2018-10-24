@@ -1,7 +1,7 @@
 [
  {
   "Name": "XXE", 
-  "Active": true, 
+  "Active": false, 
   "Scanner": 1, 
   "Payloads": [
    "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?><!DOCTYPE foo [<!ELEMENT foo ANY><!ENTITY xxe SYSTEM \"file://c:/boot.ini\">]><foo>&xee;</foo>", 
@@ -69,7 +69,10 @@
   "PayloadResponse": false, 
   "NotResponse": false, 
   "NotCookie": false, 
+  "TimeOut": 0, 
+  "isTime": false, 
   "CaseSensitive": false, 
+  "isReplace": false, 
   "ExcludeHTTP": false, 
   "OnlyHTTP": false, 
   "IsContentType": false, 

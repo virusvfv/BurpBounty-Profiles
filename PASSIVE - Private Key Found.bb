@@ -1,14 +1,14 @@
 [
  {
-  "Name": "500-Error", 
+  "Name": "PASSIVE - Private Key Found", 
   "Active": false, 
-  "Scanner": 2, 
+  "Scanner": 1, 
   "Payloads": [], 
   "Encoder": [], 
   "UrlEncode": false, 
   "CharsToUrlEncode": "", 
   "Grep": [
-   "500 Internal Server Error"
+   "PRIVATE KEY"
   ], 
   "PayloadResponse": false, 
   "NotResponse": false, 
@@ -18,7 +18,7 @@
   "CaseSensitive": false, 
   "isReplace": false, 
   "ExcludeHTTP": false, 
-  "OnlyHTTP": true, 
+  "OnlyHTTP": false, 
   "IsContentType": false, 
   "ContentType": "", 
   "NegativeCT": false, 
@@ -31,12 +31,12 @@
   "rCookies": false, 
   "spaceEncode": false, 
   "payloadPosition": 0, 
-  "IssueName": "500 server error", 
-  "IssueSeverity": "Low", 
+  "IssueName": "Private Key Found", 
+  "IssueSeverity": "High", 
   "IssueConfidence": "Certain", 
-  "IssueDetail": "", 
-  "RemediationDetail": "", 
-  "IssueBackground": "", 
-  "RemediationBackground": ""
+  "IssueDetail": "Private Key Found", 
+  "RemediationDetail": "Private Key Found", 
+  "IssueBackground": "Private Key Found", 
+  "RemediationBackground": "Private Key Found"
  }
 ]

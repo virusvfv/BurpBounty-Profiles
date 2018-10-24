@@ -1,6 +1,6 @@
 [
  {
-  "Name": "500-Error", 
+  "Name": "PASSIVE - Java De-Serialization", 
   "Active": false, 
   "Scanner": 2, 
   "Payloads": [], 
@@ -8,7 +8,7 @@
   "UrlEncode": false, 
   "CharsToUrlEncode": "", 
   "Grep": [
-   "500 Internal Server Error"
+   "javax.faces.ViewState"
   ], 
   "PayloadResponse": false, 
   "NotResponse": false, 
@@ -18,7 +18,7 @@
   "CaseSensitive": false, 
   "isReplace": false, 
   "ExcludeHTTP": false, 
-  "OnlyHTTP": true, 
+  "OnlyHTTP": false, 
   "IsContentType": false, 
   "ContentType": "", 
   "NegativeCT": false, 
@@ -31,12 +31,12 @@
   "rCookies": false, 
   "spaceEncode": false, 
   "payloadPosition": 0, 
-  "IssueName": "500 server error", 
-  "IssueSeverity": "Low", 
-  "IssueConfidence": "Certain", 
-  "IssueDetail": "", 
-  "RemediationDetail": "", 
-  "IssueBackground": "", 
-  "RemediationBackground": ""
+  "IssueName": "Java De-Serialization", 
+  "IssueSeverity": "Medium", 
+  "IssueConfidence": "Tentative", 
+  "IssueDetail": "Java De-Serialization", 
+  "RemediationDetail": "Java De-Serialization", 
+  "IssueBackground": "Java De-Serialization", 
+  "RemediationBackground": "Java De-Serialization"
  }
 ]

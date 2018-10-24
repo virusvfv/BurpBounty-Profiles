@@ -1,14 +1,16 @@
 [
  {
-  "Name": "500-Error", 
+  "Name": "ACTIVE - Reflected Values Found", 
   "Active": false, 
-  "Scanner": 2, 
-  "Payloads": [], 
+  "Scanner": 1, 
+  "Payloads": [
+   "INJECTX"
+  ], 
   "Encoder": [], 
   "UrlEncode": false, 
   "CharsToUrlEncode": "", 
   "Grep": [
-   "500 Internal Server Error"
+   "INJECTX"
   ], 
   "PayloadResponse": false, 
   "NotResponse": false, 
@@ -18,12 +20,12 @@
   "CaseSensitive": false, 
   "isReplace": false, 
   "ExcludeHTTP": false, 
-  "OnlyHTTP": true, 
+  "OnlyHTTP": false, 
   "IsContentType": false, 
   "ContentType": "", 
   "NegativeCT": false, 
-  "IsResponseCode": false, 
-  "ResponseCode": "", 
+  "IsResponseCode": true, 
+  "ResponseCode": "200", 
   "NegativeRC": false, 
   "MatchType": 1, 
   "RedirType": 0, 
@@ -31,12 +33,12 @@
   "rCookies": false, 
   "spaceEncode": false, 
   "payloadPosition": 0, 
-  "IssueName": "500 server error", 
+  "IssueName": "Reflected Values", 
   "IssueSeverity": "Low", 
   "IssueConfidence": "Certain", 
-  "IssueDetail": "", 
-  "RemediationDetail": "", 
-  "IssueBackground": "", 
-  "RemediationBackground": ""
+  "IssueDetail": "Reflected Values", 
+  "RemediationDetail": "Reflected Values", 
+  "IssueBackground": "Reflected Values", 
+  "RemediationBackground": "Reflected Values"
  }
 ]
